@@ -1,0 +1,12 @@
+
+html, h2 {
+    text-align: center;
+}
+.Text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 4rem;
+    padding: 3rem;
+
+}
