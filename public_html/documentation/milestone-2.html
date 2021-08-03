@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title>Milestone 2</title>
-    <link rel="stylesheet" href="pwp-style.css">
+    <meta charset="UTF-8">
+    <title>PWP Milestone2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-<html>
-    <h1>Milestone 2</h1>
-    <p>
-        <strong>About me:</strong> This section will detail about me and my professional history and educational background.
-    </p>
-    <p>
-        <strong>skills:</strong>This section will list my technical skills and knowledge.
-    </p>
-    <p>
-        <strong>Experience:</strong> This section will list my professional experiences.
-    </p>
-    <p><strong>Projects:</strong>This section will list the project I have worked on.
-    </p>
-    <p><strong>Contact:</strong>This section will contain a simple contact form for anyone willing to contact me.</p>
-    <h2>Wireframes:</h2>
+<div class="Text">
+    <h2>Milestone2</h2>
 
 
-        <body class="container-fluid d-md-flex justify-content-evenly">
-            <div class="card-body">
-                <p class="card-text text-center">Desktop View</p>
-            </div>
-            <div class="card m-3" style="width: 24rem;">
-                <img src="images/desktopview.png" class="card-img-top img-fluid" alt="desktop view">
+    <section>
+        <p><strong>Welcome:</strong>On top of the page their would be a navigation bar. My name would be displayed on the left side of the Navbar and the other options will be displayed on the right side of the navbar which will take user's to their desired section on the page.</p>
+        <p><strong>About Me:</strong>In this section I would like to display my picture and a brief introduction about myself including my background and experiences. Along with the picture github and linkedin icon will be displayed which will direct users to my github and linkedin profile.</p>
+        <p><strong>Skills:</strong>This section would show my Professional and Technical skills. I would be using Icons to dispaly my skills.</p>
+        <p><strong>Portfolio:</strong> This section will contain linkable projects that will represents the projects I have worked on. I will be using cards to display pictures of the projects and to describe about the projects.</p>
+        <p><strong>Resume:</strong>There will be a button on navbar which will provide a direct link to download my Resume.</p>
+        <p><strong>Contact:</strong> This section will contain a contact form for employers, friends and others to reach out with the option to include a message.
+        </p>
+    </section>
+</div>
 
-            </div>
-            <div class="card-body">
-                <p class="card-text text-center">Mobileview page1</p>
-            </div>
-            <div class="card m-5" style="width: 14rem;">
-                <img src="images/mobileview-page1.png" class="card-img-top img-fluid" alt="mobileview">
+<section class="container">
+    <h2 class="Title">Desktop View</h2>
+    <img class="rounded mx-auto mt-5 d-block"  src="images/Desktop.png" alt="image" style="width:50rem;">
+</section>
+<br>
+<section class="container">
+    <h2 class="Title">Mobile View</h2>
+<div class="row py-5 g-5">
+    <div class="col-md-3 d-flex justify-content-center">
+        <div class="card border border-white" style="width: 15.5rem;">
+            <img src="images/Mobile1.png" alt="image"/>
+        </div>
+    </div>
+    <div class="col-md-3 d-flex justify-content-center">
+        <div class="card border border-white" style="width: 13rem;" >
+            <img src="images/Mobile2.png" alt="image"/>
+        </div>
+    </div>
+    <div class="col-md-3 d-flex justify-content-center">
+        <div class="card border border-white" style="width: 13rem;">
+            <img src="images/Mobile3.png" alt="image"/>
+        </div>
+    </div>
+    <div class="col-md-3 d-flex justify-content-center">
+        <div class="card border border-white" style="width: 13rem;">
+            <img src="images/Mobile4.png" alt="image"/>
 
-            </div>
-            <div class="card-body">
-                <p class="card-text text-center">Mobileview page2</p>
-            </div>
-            <div class="card m-5" style="width: 14rem;">
-                <img src="images/mobileview-page2.png" class="card-img-top img-fluid" alt="mobileview">
+        </div>
+    </div>
+</div>
+</section>
 
-
-                <div class="card-body">
-                    <p class="card-text text-center">Mobileview page3</p>
-                </div>
-                <div class="card m-5" style="width: 14rem;">
-                    <img src="images/mobileview-page3.png" class="card-img-top img-fluid" alt="mobileview">
-
-                </div>
-            </div>
-        </body>
+</body>
 </html>
