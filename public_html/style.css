@@ -1,0 +1,12 @@
+.icon {
+    width: 3rem;
+}
+.icon2 {
+    width: 6rem;
+}
+body {
+    background: linear-gradient(#d94f22, #ffebb8);
+}
+.navbar {
+    background-color: #202020;
+}
