@@ -5,8 +5,15 @@
     width: 6rem;
 }
 body {
-    background: linear-gradient(#163033, #74a9b0);
-}
-.navbar {
-    background-color: #163033;
+    background-color: red;
+    background-image:
+            linear-gradient(
+                    to right,
+                    red,
+                    #f06d06,
+                    rgb(255, 255, 0),
+                    green
+            );
+    margin: 0px;
+
 }
