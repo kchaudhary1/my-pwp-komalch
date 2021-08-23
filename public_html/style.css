@@ -4,7 +4,7 @@
 .icon2 {
     width: 6rem;
 }
-body {
+ body {
     background-color: red;
     background-image:
             linear-gradient(
@@ -17,3 +17,5 @@ body {
     margin: 0px;
 
 }
+
+
