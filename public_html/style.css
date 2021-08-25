@@ -1,21 +1,50 @@
+.navbar-brand {
+    position: relative;
+    color: #fff;
+    font-family: "Informal Roman";
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.About-area h2{
+    font-family: poppins;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.About-area h2 span{
+    color: red;
+}
 .icon {
     width: 3rem;
 }
 .icon2 {
     width: 6rem;
 }
- body {
-    background-color: red;
-    background-image:
-            linear-gradient(
-                    to right,
-                    red,
-                    #f06d06,
-                    rgb(255, 255, 0),
-                    green
+body {
+    width: 100%;
+    height: 100%;
+
+   background: linear-gradient(-45deg, #B3B8BE, #B3B8BE, #061E3E, #251E3E
             );
-    margin: 0px;
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
 
 }
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position:  0 50%;
+    }
+}
+
+
 
 

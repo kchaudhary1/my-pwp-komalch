@@ -13,10 +13,10 @@
     <title>Komal Chaudhary</title>
 </head>
 <body>
-<section>
-    <nav class="navbar navbar-expand-lg navbar-dark p-3">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-fixed top navbar-dark p-3">
         <div class="container">
-            <a class="navbar-brand text-white" href="#"><h1>Komal Chaudhary</h1></a>
+            <a class="navbar-brand" href="#"><div id="typing"></div></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,9 +47,10 @@
             </div>
         </div>
     </nav>
-</section>
+</header>
+
 <section class="py-5" id="AboutMe">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row g-5">
             <div class="col-md-3">
                 <img class="img-fluid mx-auto d-block rounded-circle" src="MyPicture.jpg" alt="fill murry">
@@ -61,7 +62,7 @@
                 </a>
             </div>
             <div class="col-10 col-md-6 d-block mx-auto">
-                <h2 class="text-center text-white">Hi, I am Komal</h2>
+                <div class="About-area"><h2>Hello, I am Komal and I am a <span class="animate"></span></h2></div>
                 <p class="text-white">Most software today is very much like an Egyptian pyramid with millions of bricks
                     piled on top of each
                     other, with no structural integrity, but just done by brute force and thousands of slaves. (Alan
@@ -75,21 +76,19 @@
                     can tell, this coincides with the release of MS-DOS. (Larry DeLuca)</p>
                 <div class="row justify-content-center text-center">
                     <div class="col">
-                        <a class="h5 text-center" href="#contact">Contact Me</a>
+                        <a href="#contact" class="btn btn-danger">Get In Touch</a>
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
+        </div>
 </section>
 <!--Education-->
 
-<section id="education" class="home-section wg-experience mt-4 bg-info mb-5">
-    <div class="container">
+<section id="education" class="container home-section wg-experience mt-4 bg-info mb-5 text-center">
         <div class="row">
             <div class="col-12 col-lg-4 section-heading">
-                <h1>Education</h1>
+                <h1 class="p-5">Education</h1>
             </div>
             <div class="col-12 col-lg-8">
 
@@ -181,43 +180,40 @@
 
             </div>
         </div>
-    </div>
 </section>
 <!--Skills-->
-<div class="container py-md-2 bg-info" id="skill">
-    <div class="container">
+<div class="container-fluid py-md-2 bg-info mx-auto" id="skill">
         <div class="row justify-content-center text-center">
             <div class="col">
-                <hr>
-                <h3>Skills</h3>
+                <h1 class="p-5">Skills</h1>
             </div>
         </div>
         <div class="row justify-content-center text-center py-3">
-            <div class="col-md-4 py-sm-3">
+            <div class="col-md-4 col-sm-2 py-sm-3">
                 <figure>
                     <img class="img-fluid icon2" src="documentation/images/html.png" alt="HTML"/>
                     <figcaption>HTML</figcaption>
                 </figure>
             </div>
-            <div class="col-md-4 py-sm-3">
+            <div class="col-md-4 col-sm-2 py-sm-3">
                 <figure>
                     <img class="img-fluid icon2" src="documentation/images/css.png" alt="CSS Icon"/>
                     <figcaption>CSS</figcaption>
                 </figure>
             </div>
-            <div class="col-md-4 py-sm-3">
+            <div class="col-md-4 col-sm-2 py-sm-3">
                 <figure>
                     <img class="img-fluid icon2" src="documentation/images/javascript.png" alt="Javascript Icon"/>
                     <figcaption>Javascript</figcaption>
                 </figure>
             </div>
-            <div class="col-md-4 py-sm-3">
+            <div class="col-md-4 col-sm-2 py-sm-3">
                 <figure>
                     <img class="img-fluid icon2" src="documentation/images/mysql.png" alt="Mysql Icon"/>
                     <figcaption>Gaming</figcaption>
                 </figure>
             </div>
-            <div class="col-md-4 py-sm-3">
+            <div class="col-md-4 col-sm-2 py-sm-3">
                 <figure>
                     <img class="img-fluid icon2" src="documentation/images/react.png" alt="react Icon"/>
                     <figcaption>React</figcaption>
@@ -230,41 +226,90 @@
                 </figure>
             </div>
         </div>
-    </div>
 </div>
 <!--Project-->
-<section class="container text-center mt-5" id="project">
-    <h2>Projects</h2>
-    <div class="row py-5 g-5">
-        <div class="col-8 col-md-3 d-block mx-auto">
-            <img class="mb-4 img-fluid mx-auto d-block" src="http://www.fillmurray.com/250/250" alt="more fill">
-            <div class="bg-info border rounded border-2 border-secondary text-center">
-                <p class="p-2 text-center">A computer lets you make more mistakes faster than any invention in human
-                    history–with the possible exceptions of handguns and tequila. (Mitch Radcliffe) There is no
-                    programming language–no matter how structured–that will prevent programmers from making bad
-                    programs.</p>
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="#" class="btn btn-primary">GitHub</a>
+<div class="container text-center mx-auto" id="project">
+    <h1 class="p-5">Projects</h1>
+    <div class="row g-5">
+        <div class="col-10 col-md-3 d-block mx-auto">
+            <div class="card border-4 border-danger">
+                <img
+                        src="./images/Capstoneproject.png"
+                        class="card-img-top"
+                        style="height: 13rem;"
+                        alt="..."
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Messaging Web App</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up
+                        the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-danger">See Project</a>
+                </div>
             </div>
         </div>
 
-        <div class="col-8 col-md-3 d-block mx-auto">
-            <img class="mb-4 img-fluid mx-auto d-block" src="http://www.fillmurray.com/250/250" alt="more fill">
-            <div class="bg-info border rounded border-2 border-secondary text-center">
-                <p class="p-2 text-center">A computer lets you make more mistakes faster than any invention in human
-                    history–with the possible exceptions of handguns and tequila. (Mitch Radcliffe) There is no
-                    programming language–no matter how structured–that will prevent programmers from making bad
-                    programs.</p>
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="#" class="btn btn-primary">GitHub</a>
+        <div class="col-10 col-md-3 d-block mx-auto">
+            <div class="card border-4 border-danger">
+                <img
+                        src="./images/metal%20detector.jpg"
+                        class="card-img-top"
+                        style="height: 13rem;"
+                        alt="..."
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Messaging Web App</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up
+                        the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-danger">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-3 d-block mx-auto">
+            <div class="card border-4 border-danger">
+                <img
+                        src="./images/Screenshot%20(14).png"
+                        class="card-img-top"
+                        style="height: 13rem;"
+                        alt="..."
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Messaging Web App</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up
+                        the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-danger">See Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 col-md-3 d-block mx-auto">
+            <div class="card border-4 border-danger">
+                <img
+                        src="./images/Screenshot%20(16).png"
+                        class="card-img-top"
+                        style="height: 13rem;"
+                        alt="..."
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Messaging Web App</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up
+                        the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-danger">See Project</a>
+                </div>
             </div>
         </div>
 
     </div>
-</section>
+</div>
 <!--Forms-->
-<section class="container" id="contact-me" >
-    <h2 class="my-3">Contact</h2>
+<section class="container mx-auto" id="contact-me" >
+    <h1 class="text-center p-5">Contact</h1>
     <div class="row m-md-auto justify-content-center">
         <div class="contact-form col-md-8 my-4">
             <form action="./apis/" id="contact" method="post" novalidate>
@@ -284,10 +329,12 @@
                     <label for="message">Message</label>
                     <textarea class="form-control" id="message" name="message" rows="3" placeholder="Message"></textarea>
                 </div>
-                <div class="col-auto px-0">
+                <div class="col-auto m-3">
                     <div class="g-recaptcha" data-sitekey="6Lf_5wccAAAAAJ_eFwh5xxIEEhfqdL-ISaYfSOHr"></div>
-                    <button class="btn btn-primary mb-3" type="submit">Submit</button>
-                    <button class="btn btn-primary mb-3" type="reset">Reset</button>
+                    <div class="text-center">
+                    <button class="btn btn-danger mb-2" type="submit">Send Message</button>
+                    <button class="btn btn-danger mb-2" type="reset">Reset</button>
+                    </div>
                 </div>
             </form>
 
@@ -296,6 +343,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- Footer-->
 <footer class="bg-white text-light text-center py-4">
@@ -319,7 +367,9 @@
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <!-- custom jquery script-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="./js/script.js"></script>
+<script src="./js/contact.js"></script>
 
 </body>
 </html>
