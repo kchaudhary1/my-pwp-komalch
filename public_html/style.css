@@ -1,3 +1,4 @@
+
 .navbar-brand {
     position: relative;
     color: #fff;
@@ -7,6 +8,13 @@
     text-transform: uppercase;
     font-size: 20px;
 }
+.navbar {
+    background: linear-gradient(-45deg, #2A3950, #404269, #181717, #0E0E0E
+    );
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
 
 .About-area h2{
     font-family: poppins;
@@ -21,7 +29,7 @@ h2 {
     color: white;
 }
 .education {
-    background: #E57F71;
+    background: #041F37;
 }
 .icon {
     width: 3rem;
@@ -54,16 +62,4 @@ body {
 
 /*-45deg, #B3B8BE, #B3B8BE, #061E3E, #251E3E*/
 
-.affix {
-    top:0;
-    width: 100%;
-    z-index: 9999 !important;
-}
-.navbar {
-    margin-bottom: 0px;
-}
 
-.affix ~ .container-fluid {
-    position: relative;
-    top: 50px;
-}
