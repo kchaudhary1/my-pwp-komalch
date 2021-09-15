@@ -11,8 +11,6 @@
 .navbar {
     background: linear-gradient(-45deg, #2A3950, #404269, #181717, #0E0E0E
     );
-    position: relative;
-    animation: change 10s ease-in-out infinite;
 }
 
 
